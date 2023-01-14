@@ -1,6 +1,6 @@
 
 import React,{useEffect, useState,CSSProperties} from 'react'
-import {TopNFT} from "../graphql/Queries"
+
 import {
   ApolloClient,
   InMemoryCache,
