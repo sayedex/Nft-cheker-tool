@@ -94,7 +94,7 @@ const disconnected  = ()=>{
 <Link href="/">
 <Image src={Site_logo} 
  width={150}
- height={91}
+ height={82}
  className="cursor-pointer "
 />
 </Link>

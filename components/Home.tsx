@@ -48,7 +48,7 @@ const Fetch = async()=>{
 
 return (
 <>
-<div className='p-2 sm:p-10 max-w-4xl m-auto'>
+<div className='p-2 pt-5 sm:p-10 max-w-4xl m-auto'>
 
 <h1 className='text-center mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white'>NFT ID chekcer</h1>
 <form>
@@ -82,8 +82,8 @@ return (
     <>
     <div className='m-2 border p-5 w-full'>
     <h2>{e.name}</h2>
-      <h1>  token id : {e.token_id}</h1>
-      <p className='mb-3 font-light text-gray-500 dark:text-gray-400'>address: {e.token_address}</p>
+      <h1 className=''>  tokenid : {e.token_id}</h1>
+      <h2 className='mb-3 font-light text-gray-500 dark:text-gray-400'>address: {e.token_address}</h2>
 
     </div>
     </>
