@@ -93,7 +93,7 @@ const disconnected  = ()=>{
 <div id={style.site_logo} className="md:flex-3 flex-5">
 <Link href="/">
 <Image src={Site_logo} 
- width={100}
+ width={150}
  height={91}
  className="cursor-pointer "
 />

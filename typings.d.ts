@@ -7,6 +7,7 @@ enum CountActionKind {
 type MoralisNFT = {
   token_address:any
   token_id:any 
+  name:any
   
 }
 
